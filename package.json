@@ -1,6 +1,6 @@
 {
   "name": "sanity-plugin-asset-source-fiona-placeholder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "repository": "https://github.com/billymoon/sanity-plugin-asset-source-fiona-placeholder",
   "main": "index.js",
