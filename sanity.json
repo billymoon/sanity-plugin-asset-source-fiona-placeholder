@@ -1,9 +1,11 @@
 {
-  "parts": [
-    {
-      "name": "part:sanity-plugin-asset-source/fiona-placeholder",
-      "implements": "part:@sanity/form-builder/input/image/asset-sources",
-      "path": "./index.js"
-    }
-  ]
+  "paths": {
+    "source": "./src",
+    "compiled": "./lib"
+  },
+  "parts": [{
+    "name": "part:sanity-plugin-asset-source/fiona-placeholder",
+    "implements": "part:@sanity/form-builder/input/image/asset-sources",
+    "path": "index.js"
+  }]
 }

@@ -1,17 +1,28 @@
 {
   "name": "sanity-plugin-asset-source-fiona-placeholder",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "",
   "repository": "https://github.com/billymoon/sanity-plugin-asset-source-fiona-placeholder",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib --copy-files",
+    "dev": "npm run build && nodemon --watch src --exec npm run build",
+    "prepublish": "npm run build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "debounce": "^1.2.0",
-    "fiona": "^3.4.1"
+    "fiona": "^3.4.1",
+    "react": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "nodemon": "^2.0.1"
   }
 }

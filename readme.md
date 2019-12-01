@@ -1,18 +1,19 @@
 # Fiona Placeholder (Asset Source)
 
-Usual installation for sanity plugin
+## Installation
 
-- `npm install sanity-plugin-asset-source-fiona-placeholder`
-- add the plugin name`"asset-source-fiona-placeholder"` to `sanity.json` `plugins` array.
+- `sanity install asset-source-fiona-placeholder`
+
+## Usage
 
 Then you should be able to use in your model as follows...
 
-... in your schema file, import ther plugin
+... in your schema file, import the source asset
 
-    import FionaPlaceholder from "sanity-plugin-asset-source-fiona-placeholder";
+    import FionaPlaceholder from "part:sanity-plugin-asset-source/fiona-placeholder";
 
 ... in your schema define the FionaPlaceholder as an image source
-    
+
     {
       name: "name",
       type: "image",
