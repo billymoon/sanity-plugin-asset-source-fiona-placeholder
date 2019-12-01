@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublishOnly": "babel src -d lib --copy-files"
+    "build": "babel src -d lib --copy-files",
+    "prepublish": "npm run build"
   },
   "keywords": [],
   "author": "",
