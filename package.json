@@ -1,9 +1,14 @@
 {
   "name": "sanity-plugin-asset-source-fiona-placeholder",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "",
   "repository": "https://github.com/billymoon/sanity-plugin-asset-source-fiona-placeholder",
-  "main": "index.js",
+  "files": [
+    "lib",
+    "sanity.json",
+    "readme.md",
+    "screenshot-1.png"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src -d lib --copy-files",
