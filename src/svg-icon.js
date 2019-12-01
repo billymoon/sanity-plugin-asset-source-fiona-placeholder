@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 export default () => (
   <svg
@@ -8,7 +8,7 @@ export default () => (
     viewBox="0 0 250 250"
   >
     <path fill="none" d="M0 0h250v250H0z" />
-    <g stroke="#D34288" stroke-width="20" fill="none">
+    <g stroke="#D34288" strokeWidth="20" fill="none">
       <path d="M125.5 210V53" />
       <path d="M201.5 50h-76" />
       <path d="M204.5 125.5h-76" />

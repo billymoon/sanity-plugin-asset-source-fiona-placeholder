@@ -5,13 +5,21 @@
   "repository": "https://github.com/billymoon/sanity-plugin-asset-source-fiona-placeholder",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "babel src -d lib --copy-files"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "debounce": "^1.2.0",
-    "fiona": "^3.4.1"
+    "fiona": "^3.4.1",
+    "react": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4"
   }
 }
